@@ -65,6 +65,7 @@ export default class Home extends Vue {
 
   form = {
     email: '',
+    phone: '',
   };
 
   encode(data): string {
@@ -79,9 +80,20 @@ export default class Home extends Vue {
     return re.test(email);
   }
 
+  validPhone(phone): boolean {
+    // eslint-disable-next-line
+    const re = /^\d{10}$/;
+    return re.test(phone);
+  }
+
   async handleSubmit(): Promise<void> {
     if (!this.validEmail(this.form.email)) {
       this.$refs.emailInput.focus();
+      return;
+    }
+
+    if (!this.validPhone(this.form.phone)) {
+      this.$refs.phoneInput.focus();
       return;
     }
 
