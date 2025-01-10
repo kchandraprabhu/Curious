@@ -1,10 +1,98 @@
 {
   "title": "Homev",
   "titleTemplate": "| Bluise",
-  "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.\n\n\n\n\n\nHIIIIIIIIIIIIIIIIIIIIIIIIIIII",
+  "welcomeText": {
+    "title": "Welcome to Bluise",
+    "subtitle": "A Nuxt.js & Netlify CMS Boilerplate",
+    "description": "Authentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.",
+    "backgroundImage": "/images/uploads/welcome-bg.jpg"
+  },
   "logo": "/images/uploads/logo.svg",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
   "seoDescription": "A quickstart for Nuxt & Netlify CMS",
-  "seoMetaImage": ""
+  "seoMetaImage": "/images/uploads/seo-image.jpg",
+  "aboutSection": {
+    "title": "About Us",
+    "subtitle": "Who We Are",
+    "content": "We are a team of passionate developers creating robust and scalable solutions. Welcome to our world of innovation and creativity.",
+    "image": "/images/uploads/about-us.jpg"
+  },
+  "servicesSection": {
+    "title": "Our Services",
+    "subtitle": "What We Offer",
+    "services": [
+      {
+        "name": "Web Development",
+        "description": "We build fast, responsive, and SEO-friendly websites tailored to your needs.",
+        "icon": "/images/uploads/web-dev-icon.svg"
+      },
+      {
+        "name": "Digital Marketing",
+        "description": "Our experts help you maximize your online presence with proven strategies.",
+        "icon": "/images/uploads/digital-marketing-icon.svg"
+      },
+      {
+        "name": "Custom Software",
+        "description": "We design and develop custom software solutions for businesses of all sizes.",
+        "icon": "/images/uploads/custom-software-icon.svg"
+      }
+    ]
+  },
+  "testimonialsSection": {
+    "title": "Testimonials",
+    "subtitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "name": "John Doe",
+        "feedback": "Bluise delivered beyond our expectations! The website is stunning and performs flawlessly.",
+        "image": "/images/uploads/testimonial-john.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "feedback": "Exceptional service and top-notch digital marketing strategies. Highly recommend!",
+        "image": "/images/uploads/testimonial-jane.jpg"
+      }
+    ]
+  },
+  "portfolioSection": {
+    "title": "Our Work",
+    "subtitle": "Projects We’re Proud Of",
+    "projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "A modern, scalable platform for online shopping.",
+        "image": "/images/uploads/project1.jpg",
+        "link": "/portfolio/e-commerce-platform"
+      },
+      {
+        "name": "Real Estate Website",
+        "description": "Helping realtors showcase properties with style.",
+        "image": "/images/uploads/project2.jpg",
+        "link": "/portfolio/real-estate-website"
+      }
+    ]
+  },
+  "contactSection": {
+    "title": "Get In Touch",
+    "subtitle": "We’d Love to Hear from You",
+    "email": "contact@bluise.com",
+    "phone": "+123456789",
+    "address": "123 Bluise Street, Tech City, USA",
+    "form": {
+      "fields": ["Name", "Email", "Message"],
+      "submitButtonText": "Send Message"
+    }
+  },
+  "footer": {
+    "links": [
+      { "name": "Privacy Policy", "url": "/privacy-policy" },
+      { "name": "Terms of Service", "url": "/terms-of-service" }
+    ],
+    "socialMedia": {
+      "facebook": "https://facebook.com/bluise",
+      "twitter": "https://twitter.com/bluise",
+      "linkedin": "https://linkedin.com/company/bluise"
+    }
+  }
 }
