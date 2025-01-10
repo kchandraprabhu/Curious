@@ -23,6 +23,15 @@
               placeholder="your@email.com"
               aria-label="Email address"
             />
+            <input
+              ref="phoneInput"
+              v-model="form.phone"
+              class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              name="phone"
+              placeholder="1234567890"
+              aria-label="Phone number"
+            />
 
             <button
               class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
